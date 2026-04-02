@@ -1,0 +1,157 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* FONDO BASE */
+.inicio {
+    background-color: #F5EBDC; /* beige retro */
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* FORMAS DECORATIVAS */
+.forma {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/* Amarillo */
+.forma1 {
+    width: 220px;
+    height: 220px;
+    background: #FFD60A;
+    top: 40px;
+    left: 40px;
+}
+
+/* Rojo */
+.forma2 {
+    width: 260px;
+    height: 260px;
+    background: #FF3B3B;
+    bottom: 40px;
+    right: 40px;
+}
+
+/* Azul */
+.forma3 {
+    width: 180px;
+    height: 180px;
+    background: #3A86FF;
+    top: 200px;
+    right: 120px;
+}
+
+/* CONTENEDOR */
+.contenedor {
+    padding: 60px 20px;
+}
+
+/* TÍTULO */
+.titulo {
+    font-size: 65px;
+    color: #FFD60A;
+    text-shadow: 5px 5px 0 #FF3B3B;
+}
+
+/* TEXTO */
+.subtitulo {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* FRASE */
+.pregunta {
+    font-size: 30px;
+    margin-top: 30px;
+    color: #FFD60A;
+    text-shadow: 3px 3px 0 #000;
+    font-weight: bold;
+}
+
+/* BOTONES */
+.boton {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 25px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 4px 4px 0 #FFD60A;
+    transition: 0.2s;
+}
+
+.boton:hover {
+    transform: translateY(-5px);
+    background: #FFD60A;
+    color: black;
+}
+
+/* ESCENA REDES */
+.redes2 {
+    background-color: #F5EBDC;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+/* POSTS tipo redes */
+.post {
+    background: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0 black;
+    font-weight: bold;
+}
+
+/* Hover tipo interacción */
+.post:hover {
+    transform: scale(1.05);
+    background: #FFD60A;
+}
+
+/* TEXTOS EXTRA */
+.texto {
+    max-width: 600px;
+    margin: 15px auto;
+    font-size: 20px;
+}
+
+/* RECOMENDACIÓN */
+.recomendacion {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color:red;
+}
+
+/* FUENTES */
+.fuentes {
+    margin-top: 10px;
+}
+
+.fuente {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #3A86FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.fuente:hover {
+    background: #FFD60A;
+    color: black;
+}
