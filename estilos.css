@@ -12,6 +12,9 @@ body {
     overflow: hidden;
     position: relative;
 }
+.importante {
+    font-weight: bold;
+}
 
 /* FORMAS DECORATIVAS */
 .forma {
@@ -53,10 +56,14 @@ body {
 }
 
 /* TÍTULO */
+.redes {
+    background-color: #F5EBDC;
+}
 .titulo {
     font-size: 65px;
-    color: #FFD60A;
-    text-shadow: 5px 5px 0 #FF3B3B;
+    color: #ff4f0a;
+    text-shadow: 5px 5px 0 #fff23b;
+    text-align: center;
 }
 
 /* TEXTO */
@@ -64,6 +71,11 @@ body {
     font-size: 20px;
     max-width: 600px;
     margin: 20px auto;
+    text-align: center;
+    color: #FF3B3B;
+}
+.frases {
+    text-align: center;
 }
 
 /* FRASE */
@@ -73,9 +85,13 @@ body {
     color: #FFD60A;
     text-shadow: 3px 3px 0 #000;
     font-weight: bold;
+    text-align: center;
 }
 
 /* BOTONES */
+.botones {
+    text-align: center;
+}
 .boton {
     display: inline-block;
     margin: 15px;
@@ -87,12 +103,14 @@ body {
     font-weight: bold;
     box-shadow: 4px 4px 0 #FFD60A;
     transition: 0.2s;
+    text-align: center;
 }
 
 .boton:hover {
     transform: translateY(-5px);
     background: #FFD60A;
     color: black;
+    position: center;
 }
 
 /* ESCENA REDES */
@@ -105,13 +123,14 @@ body {
 
 /* POSTS tipo redes */
 .post {
-    background: white;
+    background: rgb(255, 243, 140);
     margin: 15px auto;
     padding: 15px;
     width: 70%;
     border-radius: 20px;
     box-shadow: 4px 4px 0 black;
     font-weight: bold;
+    text-align: center;
 }
 
 /* Hover tipo interacción */
@@ -154,4 +173,99 @@ body {
 .fuente:hover {
     background: #FFD60A;
     color: black;
+}
+
+
+/* ESCENA CANDIDATOS */
+.candidatos {
+    background-color: #F5EBDC;
+    text-align: center;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* TARJETAS */
+.card {
+    background: white;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0 black;
+}
+
+/* IMÁGENES */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* LINKS */
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3A86FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: #FF3B3B;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;       /* altura fija */
+    object-fit: cover;   /* recorta sin deformar */
+    border-radius: 10px;
+}
+
+.etiqueta {
+    display: inline-block;
+    margin: 8px 0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* COLORES POR IDEOLOGÍA */
+.izquierda {
+    background: #FF3B3B;
+    color: white;
+}
+
+.centro {
+    background: #FFD60A;
+    color: black;
+}
+
+.derecha {
+    background: #3A86FF;
+    color: white;
+}
+
+/* ESCENA FINAL */
+.final {
+    background-color: #F5EBDC;
+    text-align: center;
+    position: relative;
+}
+
+/* TEXTO NORMAL */
+.texto {
+    max-width: 600px;
+    margin: 15px auto;
+    font-size: 18px;
+}
+
+/* TEXTO FUERTE */
+.fuerte {
+    font-size: 22px;
+    font-weight: bold;
 }
